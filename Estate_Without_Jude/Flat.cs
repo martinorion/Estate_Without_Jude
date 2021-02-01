@@ -27,6 +27,7 @@ namespace Estate_Without_Jude
         public void AddHabitant(Habitant habitant)
         {
             habitants.Add(habitant);
+            habitant.currentFlat = this;
         }
         public void GetInfoAboutAllHabitants()
         {

@@ -10,9 +10,10 @@ namespace Estate_Without_Jude
         {
 
         }
-        public string GetInfoAboutFlat(Habitant habitant, Flat flat)
+        public Flat currentFlat;
+        public string GetInfoAboutFlat()
         {
-            return $"{habitant.ToString()}{flat.ToString()}";
+            return this.currentFlat.ToString();
         }
     }
 }
