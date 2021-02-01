@@ -25,6 +25,9 @@ namespace Estate_Without_Jude
             B.AddHabitant(c);
             Console.WriteLine(B.ToString());
             B.GetInfoAboutAllHabitants();
+
+            
+            Console.WriteLine(a.GetInfoAboutFlat(a, A));
         }
     }
 }
