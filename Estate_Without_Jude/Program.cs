@@ -22,11 +22,11 @@ namespace Estate_Without_Jude
             A.AddHabitant(a);
             A.AddHabitant(b);
             Console.WriteLine(A.ToString());
-            A.GetInfoAboutAllHabitants();
+            Console.WriteLine(A.GetInfoAboutAllHabitants());
 
             B.AddHabitant(c);
             Console.WriteLine(B.ToString());
-            B.GetInfoAboutAllHabitants();
+            Console.WriteLine(B.GetInfoAboutAllHabitants());
             C.AddHabitant(d);
 
             Console.WriteLine(d);

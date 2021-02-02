@@ -29,12 +29,14 @@ namespace Estate_Without_Jude
             habitants.Add(habitant);
             habitant.currentFlat = this;
         }
-        public void GetInfoAboutAllHabitants()
+        public string GetInfoAboutAllHabitants()
         {
-            for (int i = 0; i < habitants.Count; i++)
+            string n = "";
+            foreach (var habitant in habitants)
             {
-                Console.WriteLine($"{habitants[i]}");
+                n += habitant.ToString();
             }
+            return n;
         }
     }
 }
