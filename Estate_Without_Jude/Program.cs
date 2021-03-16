@@ -31,6 +31,8 @@ namespace Estate_Without_Jude
 
             Console.WriteLine(d);
             Console.WriteLine(d.GetInfoAboutFlat());
+
+            Console.WriteLine("ahoj kamarát")
         }
     }
 }
